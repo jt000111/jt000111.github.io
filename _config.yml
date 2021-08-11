@@ -8,11 +8,11 @@ javascript_enabled: true
 
 featured_posts_title: Unrelated
 featured_posts:
-  - url: '#'
+  - url: 'https://jt000111.github.io'
     title: 'Featured post #1'
-  - url: '#'
+  - url: 'https://jt000111.github.io'
     title: 'Featured post #2'
-  - url: '#'
+  - url: 'https://jt000111.github.io'
     title: 'Featured post #3'
 
 collections:
