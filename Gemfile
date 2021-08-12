@@ -1,8 +1,6 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
 
-group :jekyll_plugins do
-    gem "jekyll", "~> 4.0"
-end
-gem 'jekyll-sitemap'
+source "https://rubygems.org"
+gemspec
 
 gem "webrick", "~> 1.7"

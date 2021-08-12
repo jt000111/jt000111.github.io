@@ -1,92 +1,194 @@
-# Unmaintained - Blog moved to Wordpress
-I've moved my blog to wordpress and ported this theme to Wordpress - [https://github.com/abhn/Elementary-Wordpress](https://github.com/abhn/Elementary-Wordpress).
+<div align="center">
+  <br>
 
-Due to a crunch of time, updates here may or may not happen. Please check the Wordpress theme for updates.
+  <a href="https://github.com/jeffreytse/jekyll-theme-yat">
+    <img alt="jekyll-theme-yat →~ jekyll" src="https://user-images.githubusercontent.com/9413601/106478481-346fdf00-64e4-11eb-9385-1ab5329c3234.png" width="600">
+  </a>
 
-Relevant blog article: [Life Goes Full Circle – Blog Back To WordPress](https://www.nagekar.com/2021/01/life-goes-full-circle-blog-back-to-wordpress.html)
+  <h1>🎨 JEKYLL YAT THEME 🎨</h1>
+
+</div>
+
+<h4 align="center">
+  <a href="https://jekyllrb.com/" target="_blank"><code>Jekyll</code></a> theme for elegant writers.
+</h4>
+
+<p align="center">
+  <a href="https://jeffreytse.github.io/jekyll-theme-yat">
+    <img src="https://github.com/jeffreytse/jekyll-theme-yat/workflows/Github%20Pages/badge.svg"
+      alt="Github Pages" />
+  </a>
+
+  <a href="http://badge.fury.io/rb/jekyll-theme-yat">
+    <img src="https://badge.fury.io/rb/jekyll-theme-yat.svg"
+      alt="Gem Version" />
+  </a>
+
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg"
+      alt="License: MIT" />
+  </a>
+
+  <a href="https://liberapay.com/jeffreytse">
+    <img src="http://img.shields.io/liberapay/goal/jeffreytse.svg?logo=liberapay"
+      alt="Donate (Liberapay)" />
+  </a>
+
+  <a href="https://patreon.com/jeffreytse">
+    <img src="https://img.shields.io/badge/support-patreon-F96854.svg?style=flat-square"
+      alt="Donate (Patreon)" />
+  </a>
+
+  <a href="https://ko-fi.com/jeffreytse">
+  <img height="20" src="https://www.ko-fi.com/img/githubbutton_sm.svg"
+  alt="Donate (Ko-fi)" />
+  </a>
+</p>
+
+<div align="center">
+  <sub>Built with ❤︎ by
+  <a href="https://jeffreytse.net">jeffreytse</a> and
+  <a href="https://github.com/jeffreytse/jekyll-theme-yat/graphs/contributors">contributors </a>
+</div>
+
+<br>
+
+Hey, nice to meet you, you found this [Jekyll][jekyll] theme. Here the
+**Yet Another Theme** is a modern responsive theme, and it's quiet clear,
+clean and neat for writers and posts. **If you like the theme, give it
+a star!**
 
 
-# Elementary
-This is my personal blog's Jekyll template that I've been optimizing for performance, accessibility, usability, readability and simplicity in general. 
+<p align="center">
 
-I personally do not approve of personal blogs bloated with hundreds of kilobytes of trackers and analytics code, and hence, this is an attempt at creating something that I'd be comfortable with using on my website.
+  <img src="https://user-images.githubusercontent.com/9413601/91842897-6a840b00-ec87-11ea-95ca-52abcc1ac063.png" alt="demo-screenshot" width="780px"/>
 
-### Performance
-![](./tmp/perf-2.jpg)
+</p>
 
-Images from my website (clockwise from top left)
+<h3 align="center">🌌 Night Mode</h3>
 
-- Perfect **100 Google Page Speed score** on both mobile and desktop
-- **Kindle's experimental browser** running the theme
-- Median load time (From Cloudflare) is **less than a second**
-- **100% cached** by Cloudflare CDN
+<p align="center">
 
-### Dark mode
-![](./tmp/dark-mode.gif)
+  <img src="https://user-images.githubusercontent.com/9413601/94983351-760f6e00-0574-11eb-9494-5303ad6228dc.gif" alt="demo-screenshot" width="780px"/>
 
-Note: Dark mode requires JavaScript
+</p>
 
-### Scroll progress
-![](./tmp/scroll-progress.gif)
+## ✨ Features
 
-Note: Scroll progress requires JavaScript
+- Support beautiful __Night Mode__.
+- Modern responsive web design.
+- Full layouts `home`, `post`, `tags`, `archive` and `about`.
+- Uses font awesome 5 for icons.
+- Beautiful Syntax Highlight using [highlight.js][highlight-js].
+- RSS support using [Jekyll Feed][jekyll-feed] gem.
+- Optimized for search engines using [Jekyll Seo Tag][jekyll-seo-tag] gem.
+- Sitemap support using [Jekyll Sitemap][jekyll-sitemap] gem.
+- Complex and flexible table support using [Jekyll Spaceship][jekyll-spaceship] gem.
+- MathJAX and LaTeX optional support using [Jekyll Spaceship][jekyll-spaceship] gem.
+- Media (Youtube, Spotify, etc.) support using [Jekyll Spaceship][jekyll-spaceship] gem.
+- Diagram (PlantUML, Mermaid) support using [Jekyll Spaceship][jekyll-spaceship] gem.
+- Google Translation support.
+- New post tag support.
 
-### Demo
-<a href="https://elementary-jekyll.github.io/">https://elementary-jekyll.github.io/</a>
+Also, visit the [Live Demo][yat-live-demo] site for the theme.
 
-### Features
-- Lightweight, <10KB CSS, <3KB (optional) JavaScript + 15KB Open Sans font file + your content
-- Highly accessible with semantic HTML
-- Structured data ([schema.org](https://schema.org)) pre-added for blog posts
-- Dark mode (requires JavaScript for toggling class and saving user preference in cookies)
-- Reading progress slider on top (requires JavaScript)
-- JavaScript is optional (turn it off in `_config.yml`)
-- No request made to any third party
-- Any much more...
+## 🛠️  Installation
 
-### Installation (Prerequisite: A working Jekyll site)
-- If you don't have a Jekyll site, read up how to create one here: [https://jekyllrb.com/docs/](https://jekyllrb.com/docs/)
-- Add Elementary repository as a submodule to your Jekyll blog by running the following command.
+There are three ways to install:
+
+- As a [gem-based theme](https://jekyllrb.com/docs/themes/#understanding-gem-based-themes).
+- As a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) (GitHub Pages compatible).
+- Forking/directly copying all of the theme files into your project.
+
+### Gem-based Theme Method
+
+Add this line to your Jekyll site's `Gemfile`:
+
+```ruby
+gem "jekyll-theme-yat"
 ```
-git submodule add git@github.com:abhn/Elementary.git elementary
+
+And add this line to your Jekyll site's `_config.yml`:
+
+```yaml
+theme: jekyll-theme-yat
 ```
-- Tell Jekyll it has to use Elementary as theme by adding the following to your `_config.yml` (in case you're wondering where, just add it to the bottom on a new line). 
+
+And then execute:
+
+```bash
+$ bundle
 ```
-theme: elementary
+
+Or install it yourself as:
+
+```bash
+$ gem install jekyll-theme-yat
 ```
-- Add the following to your `Gemfile`
+
+### Remote Theme Method with GitHub Pages
+
+Remote themes are similar to Gem-based themes, but do not require `Gemfile` changes or whitelisting making them ideal for sites hosted with GitHub Pages.
+
+To install:
+
+Add this line to your Jekyll site's `Gemfile`:
+
+```ruby
+gem "github-pages", group: :jekyll_plugins
 ```
-source 'https://rubygems.org'
-gem 'elementary', path: 'elementary'
+
+And add this line to your Jekyll site's `_config.yml`:
+
+```yaml
+# theme: owner/name --> Don't forget to remove/comment the gem-based theme option
+remote_theme: "jeffreytse/jekyll-theme-yat"
 ```
-- Run `bundle install` command in your project directory and make sure there are no errors
-- Add `./elementary` to `exclude` section of `_config.yml` so that the theme's files aren't compiled into the final site by adding the following to your `_config.yml` (if `exclude` key exists, just add a new item to it)
+
+And then execute:
+
+```bash
+$ bundle
 ```
-exclude:
-  - ./elementary
-```
-- Run command `bundle exec jekyll serve` to run local server (open browser to [http://localhost:4000](http://localhost:4000) to view the site).
-- Run command `bundle exec jekyll build` to output a production build to the `_site` directory.
 
-### Customization
-- You're free to make any edits to the theme's files in the submodule. You can also `git pull origin master` from the submodule directory to update the theme in case I push updates, but you don't have to.
-- In `_config.yml`, you can add new collections (groups of new content, so blog posts, news, pictures could all be their own collections with separate listing on index page)
+### GitHub Pages without limitation
 
-### Credits
-- Eric S Raymond (http://www.catb.org/~esr/hacker-emblem/glider.png) for the favicon
+GitHub Pages runs in `safe` mode and only allows [a set of whitelisted plugins/themes](https://pages.github.com/versions/). __In other words, the third-party gems will not work normally__.
 
-### License
-GNU GENERAL PUBLIC LICENSE Version 3
+To use the third-party gem in GitHub Pages without limitation:
 
-### Going v1.0
-When I started with the [original project](https://github.com/abhn/Elementary/releases/tag/v0.1) around 2 years ago, my goal was to get rid of all that unnecessary code and progressively add only the most essential bits. 
+Here is a GitHub Action named [jekyll-deploy-action](https://github.com/jeffreytse/jekyll-deploy-action) for Jekyll site deployment conveniently. 👍
 
-I feel like the theme is in good enough shape right now that I can call it a v1.0
 
------
+## 📚 Usage
 
-### Original inspiration
+Add or update your available layouts, includes, sass and/or assets.
 
-I recently read in a blog post that a personal blog has to be fast and lean. There's no reason for a personal blog to be bloated and take 2 seconds to load. That was when I reviewed my own blog code and started analyzing. I discovered that I was loading jQuery just for another jQuery plugin which just helped the images and videos to be mobile responsive. That was some 40KB of overhead, 2 additional requests which could have been prevented with just a `max-width: 100%` attribute to the culprit elements. Similarly, there was Disqus which loaded tonnes of scripts along with its own Google Analytics script. 
+## ✏️  Development
 
-I went on stripping weight from the code, and was left with something what you see here. Few extra CSS tweaks and Tadaa!
+To set up your environment to develop this theme, run `bundle install`.
+
+Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+
+When your theme is released, only the files in `_data`, `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
+To add a custom directory to your theme-gem, please edit the regexp in `jekyll-theme-yat.gemspec` accordingly.
+
+## 🔫 Contributing
+
+Issues and Pull Requests are greatly appreciated. If you've never contributed to an open source project before I'm more than happy to walk you through how to create a pull request.
+
+You can start by [opening an issue](https://github.com/jeffreytse/jekyll-theme-yat/issues/new) describing the problem that you're looking to resolve and we'll go from there.
+
+## 🌈 License
+
+This theme is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php) © JeffreyTse.
+
+<!-- External links -->
+[jekyll]: https://jekyllrb.com/
+[yat-git-repo]: https://github.com/jeffreytse/jekyll-theme-yat/
+[yat-live-demo]: https://jeffreytse.github.io/jekyll-theme-yat/
+[jekyll-spaceship]: https://github.com/jeffreytse/jekyll-spaceship
+[jekyll-seo-tag]: https://github.com/jekyll/jekyll-seo-tag
+[jekyll-sitemap]: https://github.com/jekyll/jekyll-sitemap
+[jekyll-feed]: https://github.com/jekyll/jekyll-feed
+[highlight-js]: https://github.com/highlightjs/highlight.js
